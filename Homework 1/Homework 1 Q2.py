@@ -8,3 +8,10 @@ try:
         print('x is odd')
 except ValueError:
     print('Error: enter a number')
+
+x=int(input ('Enter an integer:'))
+y=x%2
+if y==0:
+  print('even')
+if y==1:
+  print('odd')
